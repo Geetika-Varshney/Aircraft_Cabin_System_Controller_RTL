@@ -20,3 +20,35 @@ The design uses:
 - Fully verified via waveform analysis
 
 ## Project Structure
+- src/
+- sequential/ Flip-flops, registers, command latching
+- counters/ Timing and stabilization counters
+- fsm/ Moore finite state machine
+- top/ Top-level system integration
+
+- tb/
+- tb_cabin_system.sv System-level testbench
+
+- waveforms/
+- Simulation screenshots and verification evidence
+
+---
+
+##  How to Run the Simulation
+1. Open the project in **Vivado**
+2. Set `cabin_system_top.v` as the **Design Top**
+3. Set `tb_cabin_system.sv` as the **Simulation Top**
+4. Run **Behavioral Simulation**
+5. Inspect waveforms to observe state transitions, timing delays, and safety behavior
+
+---
+
+##  Tools Used
+- Xilinx Vivado (Simulation)
+- Verilog / SystemVerilog
+- RTL-based design and verification methodology
+
+---
+
+##  Author
+Geetika Varshney
